@@ -12,6 +12,9 @@
 		8F14BD691EA9C8C600F950C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F14BD671EA9C8C600F950C5 /* Main.storyboard */; };
 		8F14BD6B1EA9C8C600F950C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F14BD6A1EA9C8C600F950C5 /* Assets.xcassets */; };
 		8F14BD6E1EA9C8C600F950C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F14BD6C1EA9C8C600F950C5 /* LaunchScreen.storyboard */; };
+		8F14BD761EA9C90400F950C5 /* ResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14BD751EA9C90400F950C5 /* ResultadoViewController.swift */; };
+		8F14BD781EA9C91000F950C5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14BD771EA9C91000F950C5 /* AboutViewController.swift */; };
+		8F14BD7A1EA9C93400F950C5 /* IMCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14BD791EA9C93400F950C5 /* IMCModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8F14BD6A1EA9C8C600F950C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F14BD6D1EA9C8C600F950C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F14BD6F1EA9C8C600F950C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F14BD751EA9C90400F950C5 /* ResultadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultadoViewController.swift; sourceTree = "<group>"; };
+		8F14BD771EA9C91000F950C5 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8F14BD791EA9C93400F950C5 /* IMCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMCModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				8F14BD6A1EA9C8C600F950C5 /* Assets.xcassets */,
 				8F14BD6C1EA9C8C600F950C5 /* LaunchScreen.storyboard */,
 				8F14BD6F1EA9C8C600F950C5 /* Info.plist */,
+				8F14BD751EA9C90400F950C5 /* ResultadoViewController.swift */,
+				8F14BD771EA9C91000F950C5 /* AboutViewController.swift */,
+				8F14BD791EA9C93400F950C5 /* IMCModel.swift */,
 			);
 			path = "NAC1-IMC";
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F14BD761EA9C90400F950C5 /* ResultadoViewController.swift in Sources */,
 				8F14BD661EA9C8C600F950C5 /* ViewController.swift in Sources */,
+				8F14BD7A1EA9C93400F950C5 /* IMCModel.swift in Sources */,
+				8F14BD781EA9C91000F950C5 /* AboutViewController.swift in Sources */,
 				8F14BD641EA9C8C600F950C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
