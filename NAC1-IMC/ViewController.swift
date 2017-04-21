@@ -14,9 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var alturaTextField: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var sexoLabel: UILabel!
-    
+    var sexo:String = "Sexo"
     override func viewDidLoad() {
         super.viewDidLoad()
+        sexoLabel.text = sexo
 
     }
 

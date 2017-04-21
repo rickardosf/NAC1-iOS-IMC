@@ -36,5 +36,10 @@ class AboutViewController: UIViewController {
         performSegue(withIdentifier: "BackHome", sender: nil)
     }
     
+    @IBAction func url(_ sender: UIButton) {
+        if let url = NSURL(string: "https://github.com/rickardosf"){
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
 
 }

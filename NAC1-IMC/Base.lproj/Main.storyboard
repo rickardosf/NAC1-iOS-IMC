@@ -154,7 +154,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="xVJ-Fk-Kz0">
-                                <rect key="frame" x="0.0" y="20" width="375" height="196"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="196"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWi-Lm-aeq">
@@ -172,13 +172,24 @@
                                 <rect key="frame" x="16" y="328" width="343" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTz-QE-Zrp">
-                                <rect key="frame" x="16" y="206" width="343" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTz-QE-Zrp">
+                                <rect key="frame" x="148" y="174" width="211" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resultado:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHT-4t-pf1">
+                                <rect key="frame" x="0.0" y="184" width="154" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="seta" translatesAutoresizingMaskIntoConstraints="NO" id="VLm-4j-vE3">
+                                <rect key="frame" x="67" y="213" width="98" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.51347583870000002" green="1" blue="0.91538419680000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -239,6 +250,17 @@
                                     <action selector="backHome:" destination="ygJ-Wq-gdK" eventType="touchUpInside" id="QVk-Ll-UsT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpt-Sv-cMM">
+                                <rect key="frame" x="0.0" y="522" width="375" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="https://github.com/rickardosf">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="url:" destination="ygJ-Wq-gdK" eventType="touchUpInside" id="lrs-Sh-Bh9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51347583870000002" green="1" blue="0.91538419680000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -248,14 +270,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QPy-ER-dir" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="354" y="839"/>
+            <point key="canvasLocation" x="352.80000000000001" y="838.83058470764627"/>
         </scene>
     </scenes>
     <resources>
         <image name="calculadora-tabela-resultados" width="271" height="238"/>
         <image name="logo" width="600" height="338"/>
+        <image name="seta" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gpw-P6-zCK"/>
+        <segue reference="nog-fd-6OL"/>
     </inferredMetricsTieBreakers>
 </document>
